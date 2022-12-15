@@ -6,7 +6,7 @@ CITY_DATA = {'chicago': 'chicago.csv',
              'new york city': 'new_york_city.csv',
              'washington': 'washington.csv'}
 
-
+print("hello udacity")
 def get_filters():
     """
     Asks user to specify a city, month, and day to analyze.
@@ -21,20 +21,20 @@ def get_filters():
     while True:
         city = input("please enter the city you want filter").lower()
         if city not in CITY_DATA:
-            print("Sorry,please try again")
+            print("try again")
 
     # TO DO: get user input for month (all, january, february, ... , june)
     while True:
         month = input("please select month would you like to filter").lower()
         if month not in ['january', 'february', 'march', 'april', 'may', 'june', 'jule', 'august', 'septemper',
                          'october', 'november', 'december', 'all']:
-            print("Sorry,please try again")
+            print("try again")
 
     # TO DO: get user input for day of week (all, monday, tuesday, ... sunday)
     while True:
         day = input("please enter the day you want to filter").lower()
         if day not in ['sunday', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'all']:
-            print("Sorry,please try again")
+            print("try again")
 
     print('-' * 40)
     return city, month, day
