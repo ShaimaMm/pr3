@@ -12,5 +12,5 @@ it is a program analyzes data , the program works on local and external data.
 the data file used in this project: chicago.csv , newyorkcity.csv , chicago.csv
 
 ### Credits
-Iam so happy , Thanx udacity to give me this chance
+Iam so happy , Thanx udacity to give me this chance.
 
